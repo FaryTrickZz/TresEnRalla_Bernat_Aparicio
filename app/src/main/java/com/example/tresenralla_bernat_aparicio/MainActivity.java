@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public boolean onOptionsItemSelected(MenuItem item) {
-        Intent explicitIntent = new Intent(this, MainActivity2.class);
-        startActivity(explicitIntent);
-        return super.onOptionsItemSelected(item);
+                Intent explicitIntent = new Intent(this, MainActivity2.class);
+                startActivity(explicitIntent);
+                return super.onOptionsItemSelected(item);
     }
 }

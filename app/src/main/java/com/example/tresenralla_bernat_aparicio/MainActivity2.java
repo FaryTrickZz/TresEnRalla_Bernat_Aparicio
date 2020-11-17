@@ -15,14 +15,4 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
     }
 
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu1, menu);
-        return true;
-    }
-
-    public boolean onOptionsItemSelected(MenuItem item) {
-        Intent explicitIntent = new Intent(this, MainActivity2.class);
-        startActivity(explicitIntent);
-        return super.onOptionsItemSelected(item);
-    }
 }
